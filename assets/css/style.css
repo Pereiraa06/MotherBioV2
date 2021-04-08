@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   background: #ffffff;
-  color: #ffffff;
+  color: #000000;
 }
 
 a {
@@ -48,8 +48,8 @@ h1, h2, h3, h4, h5, h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #ffffff;
-  border-top-color: #3ba521;
-  border-bottom-color: #3ba521;
+  border-top-color: #000000;
+  border-bottom-color: #000000;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -89,17 +89,17 @@ h1, h2, h3, h4, h5, h6 {
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
-  border: 2px solid #3ba521;
+  border: 2px solid #000000;
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #3ba521;
+  color: #000000;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #3ba521;
+  background: #000000;
   color: #ffffff;
 }
 
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #topbar .contact-info i {
   font-style: normal;
-  color: #3ba521;
+  color: #000000;
 }
 
 #topbar .contact-info i span {
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
   padding: 0;
   margin: 0;
-  color: #3ba521;
+  color: #000000;
 }
 
 #topbar .languages ul a {
@@ -173,8 +173,8 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(12, 11, 9, 0.6);
-  border-bottom: 1px solid rgba(12, 11, 9, 0.6);
+  background: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -182,8 +182,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   top: 0;
-  background: rgba(0, 0, 0, 0.85);
-  border-bottom: 1px solid #37332a;
+  background: rgb(255, 255, 255);
+  border-bottom: 1px solid #dbdbdb;
 }
 
 #header .logo {
@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 #header .logo img {
@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .book-a-table-btn {
   margin: 0 0 0 15px;
-  border: 2px solid #3ba521;
+  border: 2px solid #000000;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .book-a-table-btn:hover {
-  background: #3ba521;
+  background: #000000;
   color: #fff;
 }
 
@@ -260,20 +260,20 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .navbar a i {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 0;
   margin-left: 5px;
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #3ba521;
+  color: #4e4e4e;
 }
 
 .navbar .dropdown ul {
@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #3ba521;
+  color: #000000;
 }
 
 .navbar .dropdown:hover > ul {
@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #3ba521;
+  color: #000000;
 }
 
 .navbar-mobile .getstarted {
@@ -429,7 +429,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #3ba521;
+  color: #000000;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -442,7 +442,6 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -450,7 +449,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(255, 255, 255);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -473,16 +472,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-family: "Poppins", sans-serif;
 }
 
 #hero h1 span {
-  color: #3ba521;
+  color: #000000;
 }
 
 #hero h2 {
-  color: #eee;
+  color: rgb(54, 54, 54);
   margin-bottom: 10px 0 0 0;
   font-size: 22px;
 }
@@ -501,12 +500,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: white;
-  border: 2px solid #3ba521;
+  color: rgb(0, 0, 0);
+  border: 2px solid #000000;
 }
 
 #hero .btn-menu:hover, #hero .btn-book:hover {
-  background: #3ba521;
+  background: #000000;
   color: #fff;
 }
 
@@ -517,7 +516,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#3ba521 50%, rgba(205, 164, 94, 0.4) 52%);
+  background: radial-gradient(#000000 50%, rgba(205, 164, 94, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -563,7 +562,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .play-btn:hover::after {
-  border-left: 15px solid #3ba521;
+  border-left: 15px solid #000000;
   transform: scale(20);
 }
 
@@ -683,7 +682,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   font-family: "Poppins", serif;
-  color: #3ba521;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -742,7 +741,6 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -750,7 +748,7 @@ section {
 
 .about:before {
   content: "";
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(255, 255, 255, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -777,8 +775,8 @@ section {
   height: 60px;
   z-index: 1;
   content: '';
-  border-left: 5px solid #3ba521;
-  border-top: 5px solid #3ba521;
+  border-left: 5px solid #000000;
+  border-top: 5px solid #000000;
   transition: .5s;
 }
 
@@ -790,8 +788,8 @@ section {
   height: 60px;
   z-index: 2;
   content: '';
-  border-right: 5px solid #3ba521;
-  border-bottom: 5px solid #3ba521;
+  border-right: 5px solid #000000;
+  border-bottom: 5px solid #000000;
   transition: .5s;
 }
 
@@ -826,7 +824,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #3ba521;
+  color: #000000;
 }
 
 .about .content p:last-child {
@@ -866,7 +864,7 @@ section {
 }
 
 .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
-  color: #3ba521;
+  color: #000000;
 }
 
 .menu #menu-flters li:last-child {
@@ -916,7 +914,7 @@ section {
 }
 
 .menu .menu-content a:hover {
-  color: #3ba521;
+  color: #000000;
 }
 
 .menu .menu-content span {
@@ -925,7 +923,7 @@ section {
   z-index: 3;
   padding: 0 10px;
   font-weight: 600;
-  color: #3ba521;
+  color: #000000;
 }
 
 .menu .menu-ingredients {
@@ -953,23 +951,23 @@ section {
   transition: 0.3s;
   color: #fff;
   border-radius: 0;
-  border-right: 2px solid #3ba521;
+  border-right: 2px solid #000000;
   font-weight: 600;
   font-size: 15px;
 }
 
 .specials .nav-link:hover {
-  color: #3ba521;
+  color: #000000;
 }
 
 .specials .nav-link.active {
   color: #ffffff;
-  background: #3ba521;
-  border-color: #3ba521;
+  background: #000000;
+  border-color: #000000;
 }
 
 .specials .nav-link:hover {
-  border-color: #3ba521;
+  border-color: #000000;
 }
 
 .specials .tab-pane.active {
@@ -1077,7 +1075,7 @@ section {
 }
 
 .chefs .member .social a:hover {
-  color: #3ba521;
+  color: #000000;
 }
 
 .chefs .member .social i {
@@ -1113,7 +1111,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #3ba521;
+  background: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1187,7 +1185,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #3ba521;
+  border: 3px solid #000000;
   border-top-color: #ffffff;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1216,7 +1214,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #3ba521;
+  border-color: #000000;
 }
 
 .contact .php-email-form input {
@@ -1228,7 +1226,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #3ba521;
+  background: #000000;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1313,7 +1311,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #3ba521;
+  background: #000000;
   color: #fff;
   text-decoration: none;
 }
@@ -1338,7 +1336,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #3ba521;
+  color: #000000;
   font-size: 18px;
   line-height: 1;
 }
